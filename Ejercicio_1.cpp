@@ -2,9 +2,13 @@
 using namespace std;
 int main (){
 	int n,num = 7,i;
-	cout<<"Digite la cantidad de mutiplos de 7"<<endl; cin>>n;
-	for(i=1;i<=n;i++){
-		cout<<"El multiplo "<<i<<" es:"<<num*i<<endl;
+	cout<<"Digite la cantidad de mutiplos de 7:"<<endl; cin>>n;
+	if (n>0){
+		for(i=1;i<=n;i++){
+		cout<<"El multiplo "<<i<<" es: "<<num*i<<endl;
+	    }
+	}else{
+		cout<<"ERROR.NEGATIVE_VALUE";
 	}
 	return 0;
 }
