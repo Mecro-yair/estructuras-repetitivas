@@ -8,7 +8,7 @@ int main (){
 		cout<<"El multiplo "<<i<<" es: "<<num*i<<endl;
 	    }
 	}else{
-		cout<<"ERROR.NEGATIVE_VALUE";
+		cout<<"ERROR3_NEGATIVE_VALUE";
 	}
 	return 0;
 }
