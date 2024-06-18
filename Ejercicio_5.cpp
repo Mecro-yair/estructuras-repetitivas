@@ -26,7 +26,7 @@ int main() {
 		}
     }
         
-
+//promedio
     promedio = suma / contador; 
     
     cout << "Los aprobados son: " << aprobados << endl;
