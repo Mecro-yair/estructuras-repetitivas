@@ -3,14 +3,15 @@ using namespace std;
 int main(){
 	int contador=0,n,num,i;
 	float promedio,suma=0;
-	cout<<"Digite la cantidad de numeros no negativos a sacar el promedio: "; cin>>n;
+	cout<<"Digite la cantidad de numeros no negativos a sacar el promedio:\n"; cin>>n;
 	if (n>0){
-		for (i=1;i<=n;i++){
+		while(i<n){
 		        cout<<"Digite un numero: "; cin>>num;
 		        if (num>0){
 		        	suma=suma+num;
+		        	i++;
 				}else{
-					cout<<"Digite un numero positivo";
+					cout<<"Digite un numero positivo\n";
 				}
 	    }
 	    if(num>0){
